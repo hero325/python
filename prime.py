@@ -4,7 +4,8 @@ def primecheck(num):
     if num > 1:  #number can never be negative
         for j in range(2,num):  
             if (num % j) == 0:  
-                print(num,"is not a prime number")  
+                print(num,"is not a prime number")
+                print("Try new number")
                 print(j,"times",num//j,"is",num)
                 break  
             else:  #if number is not divisible then it is a prime number
